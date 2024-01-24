@@ -8,7 +8,6 @@ export default class Level3 extends Phaser.Scene {
     }
     preload() {
         this.load.image('background', '/scene-3.jpg');
-        this.load.image('button', '/button.png');
     }
     create() {
         this.add.image(400, 300, 'background');
