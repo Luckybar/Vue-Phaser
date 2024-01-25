@@ -12,6 +12,10 @@ const config = {
   input :{
     activePointers: 10,
   },
+  dom: {
+    createContainer: true
+  },
+  parent: 'game',
 };
 
 new Phaser.Game(config);
@@ -19,6 +23,7 @@ new Phaser.Game(config);
 
 <template>
   <h1>Hello World</h1>
+  <div id="game"></div>
 </template>
 
 <style scoped>
