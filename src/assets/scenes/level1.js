@@ -29,5 +29,7 @@ export default class Level1 extends Phaser.Scene {
 
         const musicButton = new MusicButton(this, 400, 550);
         this.add.existing(musicButton);
+
+        this.scene.start('level2');
     }
 }
