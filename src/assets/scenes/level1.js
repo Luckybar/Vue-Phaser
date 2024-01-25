@@ -6,9 +6,9 @@ export default class Level1 extends Phaser.Scene {
         });
     }
     preload() {
-        this.load.image('background', '/scene-1.jpg');
-        this.load.image('button', '/button.png');
-        this.load.audio('bgm', '/bgm.mp3')
+        this.load.image('background', 'img/scene-1.jpg');
+        this.load.image('button', 'img/button.png');
+        this.load.audio('bgm', 'sound/bgm.mp3')
     }
     create() {
         this.add.image(400, 300, 'background');
