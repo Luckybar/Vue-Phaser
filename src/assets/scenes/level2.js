@@ -35,7 +35,5 @@ export default class Level2 extends Phaser.Scene {
         this.add.existing(teamACountBtn)
         this.add.existing(changeLevelBtn)
         this.add.existing(teamBCountBtn)
-
-        this.scene.start('level3');
     }
 }
